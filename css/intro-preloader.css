@@ -1,0 +1,54 @@
+/**
+ * breakpoints
+ */
+/**
+ * font-family
+ */
+/**
+ * color
+ */
+/**
+ * z-layer
+ */
+/**
+ * font-weight
+ */
+/**
+ * other
+ */
+@media screen and (max-width: 1024px) {
+  .desktop-only {
+    display: none; } }
+
+/*
+@mixin MOBILE() {
+  @media only screen and (max-width: $TABLET - 1) { @content; }
+}
+
+@mixin TABLET() {
+  @media only screen and (min-width: $TABLET)  and (max-width: $DESKTOP - 1) { @content; }
+}
+
+@mixin DESKTOP(){
+  @media only screen and (min-width: $DESKTOP) { @content; }
+}
+*/
+.intro-preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 9999; }
+  .intro-preloader canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto; }
+    @media screen and (max-width: 768px) {
+      .intro-preloader canvas {
+        width: 220px;
+        height: 220px; } }
